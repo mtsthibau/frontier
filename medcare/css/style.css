@@ -1217,7 +1217,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
+.block{
+  margin-top: 20px
+}
 .plan {
   margin: 0;
   padding: 2em;
@@ -1261,6 +1263,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  height: 400px;
 }
 @media screen and (max-width: 768px) {
   .testimony {
@@ -1399,8 +1402,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #qbootstrap-footer .copyright {
   background: #000;
-  padding: 2em;
+  
+  /* padding: 2em; */
 }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 #qbootstrap-footer .copyright .block {
   display: block;
 }

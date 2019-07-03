@@ -349,16 +349,16 @@
 		// + minutes + "Minutes " + seconds + "Seconds ";
 
 		// Display the result in an element with id="demo"
-		document.getElementById("days").innerHTML = days +" <small>dias por semana</small>";
-		document.getElementById("hours").innerHTML = hours + " <small>horas por dia</small> ";
+		// document.getElementById("days").innerHTML = days +" <small>dias por semana</small>";
+		// document.getElementById("hours").innerHTML = hours + " <small>horas por dia</small> ";
 		//document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
 		//document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 
 		// If the count down is finished, write some text 
-		if (distance < 0) {
-		 clearInterval(x);
-		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
-		}
+		// if (distance < 0) {
+		//  clearInterval(x);
+		//  document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
+		// }
 		}, 1000);
 
 	// Document on load.
