@@ -56,8 +56,8 @@ td{
 
 //enviar
 // emails para quem será enviado o formulário
-// $destino = "contato@frontiersolucoesdigitais.com.br";
-$destino = "mtsthibau@gmail.com";
+$destino = "contato@frontiersolucoesdigitais.com.br";
+// $destino = "mtsthibau@gmail.com";
 $assunto = "CONTATO PELO SITE FRONTIERSOLUCOESDIGITAIS.COM.BR";
 
 // É necessário indicar que o formato do e-mail é html

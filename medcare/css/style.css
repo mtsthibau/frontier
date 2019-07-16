@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .features-wrap {
-  padding: 4em;
+  padding: 3em;
 }
 @media screen and (max-width: 768px) {
   .features-wrap {
@@ -1263,7 +1263,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
-  height: 400px;
 }
 @media screen and (max-width: 768px) {
   .testimony {
